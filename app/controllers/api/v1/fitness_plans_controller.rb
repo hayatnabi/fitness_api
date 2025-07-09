@@ -49,19 +49,4 @@ class Api::V1::FitnessPlansController < ApplicationController
       }
     end
   end
-
-  # def create
-  #   fitness_plan = FitnessPlan.new(fitness_plan_params)
-  #   if fitness_plan.save
-  #     render json: { message: 'Fitness plan created successfully', fitness_plan: fitness_plan }, status: :created
-  #   else
-  #     render json: { errors: fitness_plan.errors.full_messages }, status: :unprocessable_entity
-  #   end
-  # end
-
-  # private
-
-  # def fitness_plan_params
-  #   params.require(:fitness_plan).permit(:name, :description, :duration, :goal)
-  # end
 end
